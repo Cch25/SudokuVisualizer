@@ -1,0 +1,31 @@
+*,
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+#sudokuCanvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-name {
+  font-size: 24px;
+}
+
+.wait-message {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.solution-found {
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 15%;
+  transform: translate(-50%,-50%);
+  color: lightgreen;
+}

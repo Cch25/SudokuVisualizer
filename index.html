@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header-name">Sudoku</h1>
+    <div id="pleaseWait" class="wait-message">Solving, please wait...</div>
+    <div id="solutionFound" class="solution-found">Sudoku solved!</div>
+    <canvas id="sudokuCanvas"></canvas>
+    <script src="sudoku.js"></script>
+
+    <script>
+        const sudoku = new Sudoku();
+        sudoku.init();
+    </script>
+</body>
+
+</html>
